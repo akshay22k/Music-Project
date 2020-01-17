@@ -1,0 +1,46 @@
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+public class musicBeta {
+    public static void main(String[] args) throws SQLException {
+        System.out.println("ur mum gay lol"); //for testing porpoises
+
+        try(Connection con = DBConnection.getConnection();//acess connection from global class elsewhere
+            Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+            ResultSet rs = stmt.executeQuery("SELECT * FROM saves");
+
+        )
+        {
+            System.out.println("Connected"); //for testing porpoises
+            //System.out.println(rs.getRow());
+
+            //Insert into record
+            stmt.executeUpdate("INSERT INTO saves " + "VALUES (2, 'Testing Again', '34*5')");
+
+
+        } catch (SQLException e){ //for debugging porpoises
+            System.err.print(e);
+        }
+
+        //to close connection
+    }
+}
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBConnection {
+    //dont steal my password please
+    private static final String USERNAME = "akshay";
+    private static final String PASSWORD = "Abd!jan22";
+    private static final String CONN = "jdbc:mysql://localhost/music";
+
+    public static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(CONN, USERNAME, PASSWORD); //start connection
+
+    }
+}
