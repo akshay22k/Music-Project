@@ -1722,7 +1722,7 @@ public class EditorFrame extends javax.swing.JFrame {
         //Spaghetti Code begins here and my sanity ends here        
        //Finished array String[] arrayLine = new String[16]; //Declaring a string holding all the values
        
-      //Change this array String[] arrayLine = {"Emid","ehigh", "ehigh", "Elow", "ehigh", "ehigh", "Elow","ehigh"};
+      Change this array String[] arrayLine = {"Emid","ehigh", "ehigh", "Elow", "ehigh", "ehigh", "Elow","ehigh"};
        String low = "C:\\Users\\Michael\\Documents\\NetBeansProjects\\ComputerscienceProject\\Images\\Cmid.JPG"; //Declaration of image path
        String high = "C:\\Users\\Michael\\Documents\\NetBeansProjects\\ComputerscienceProject\\Images\\Chigh.JPG";
             if (arrayLine[0] == "Elow"){ //Checks if the array value is equal to a specific note, executes if true
