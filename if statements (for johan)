@@ -1,0 +1,8 @@
+if((EditorFrame.tabArray.get(i) == "E") && (EditorFrame.tabArray.get(i - 1) == "0") && (EditorFrame.tabArray.get(i + 2) != "—")){
+                System.out.println(EditorFrame.tabArray.get(i));
+                System.out.println("Elow");
+                System.out.print(i);
+
+                notesArray[i-1] = "Elow";
+                notesArray[i] = "—";
+            }
