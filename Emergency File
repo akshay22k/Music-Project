@@ -1,0 +1,147 @@
+ //Finished array String[] arrayLine = new String[16]; //Declaring a string holding all the values
+       
+       String[] arrayLine = {"Elow","ehigh", "ehigh", "Elow", "ehigh", "ehigh", "Elow","ehigh"};
+       String low = "C:\\Users\\Michael\\Documents\\NetBeansProjects\\ComputerscienceProject\\Images\\Cmid.JPG"; //Declaration of image path
+       String high = "C:\\Users\\Michael\\Documents\\NetBeansProjects\\ComputerscienceProject\\Images\\Chigh.JPG";
+      //  for ( int i = 0; i < arrayLine.length; i++ ) //For loop iterating through the array
+       // {
+            if (arrayLine[0] == "Elow"){ //Checks if the array value is equal to a specific note, executes if true
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+                jNotes1.setIcon(new javax.swing.ImageIcon(low));
+                jLayeredPane1.add(jNotes1);
+                validate();
+            }
+            if (arrayLine[0] == "Emid"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+                jNotes1.setIcon(new javax.swing.ImageIcon(low));
+                jLayeredPane1.add(jNotes1);
+                validate();
+            }
+            if (arrayLine[0] == "Ehigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Flow"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Fmid"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Fhigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Glow"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Gmid"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Ghigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Alow"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Amid"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Ahigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Blow"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Bmid"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Bhigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "clow"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "cmid"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "chigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Dlow"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Dmid"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "Dhigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "elow"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "emid"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+            }
+            if (arrayLine[0] == "ehigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+                 
+            }
+            //For testing purposes only
+             if (arrayLine[1] == "ehigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+                 jNotes162.setIcon(new ImageIcon(high));
+                 validate();
+            } if (arrayLine[2] == "ehigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+                 jNotes163.setIcon(new ImageIcon(high));
+                 validate();
+            } if (arrayLine[3] == "Elow"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+                 jNotes4.setIcon(new ImageIcon(low));
+                 validate();
+            } if (arrayLine[4] == "ehigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+                 jNotes165.setIcon(new ImageIcon(high));
+                 validate();
+            } if (arrayLine[5] == "ehigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+                 jNotes166.setIcon(new ImageIcon(high));
+                 validate();
+            } if (arrayLine[6] == "Elow"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+                 jNotes7.setIcon(new ImageIcon(low));
+                 validate();
+            } if (arrayLine[7] == "ehigh"){
+                //Print the corresponding note on the corresponding value i.e, print quarter note image on the 
+                //Print the image on column 1 label, string E
+                 jNotes168.setIcon(new ImageIcon(high));
+                 validate();
+            }
